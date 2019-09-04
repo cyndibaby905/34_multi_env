@@ -16,9 +16,6 @@ class MyApp extends StatelessWidget {
     if(kReleaseMode){
       //Do sth for release
       print('checking release from Environment ');
-    } else if(kProfileMode) {
-      //Do sth for profile
-      print('checking profile from Environment ');
     } else {
       //Do sth for debug
       print('checking debug from Environment ');
